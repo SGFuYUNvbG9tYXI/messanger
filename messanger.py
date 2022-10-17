@@ -2,7 +2,7 @@ import socket
 from threading import Thread
 def server():
     HOST = ""  
-    PORT = 65432
+    PORT = 5000
     
     while True:
         try:
@@ -21,7 +21,7 @@ def server():
 
 def client():
     HOST = input("Enter server IP address: \n") 
-    PORT = 65432
+    PORT = 5000
     
     while True:
         try:
